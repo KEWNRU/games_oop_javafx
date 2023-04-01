@@ -13,7 +13,7 @@ class BishopBlackTest {
     }
 
     @Test
-    public void way(){
+    public void way() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
         Cell[] expected = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         assertThat(bishopBlack.way(Cell.G5), is(expected));
